@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Antenna_joh_BLE
+D 2450AT42E010
+K antenna
+F ~
+$ENDCMP
+#
+$CMP DMC2400UV
+D 4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6
+K complementary mosfet
+F https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf
+$ENDCMP
+#
+$CMP PMDPB30XN-115
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+#End Doc Library

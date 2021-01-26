@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name lib_ultimateFC)(type Legacy)(uri ${KIPRJMOD}/lib/lib_ultimateFC.lib)(options "")(descr ""))
+  (lib (name STM32G071)(type Legacy)(uri ${KIPRJMOD}/lib/STM32G071.lib)(options "")(descr ""))
+)

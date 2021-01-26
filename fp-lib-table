@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 11_PSoC_FC_whoop)(type KiCad)(uri ${KIPRJMOD}/mod/11_PSoC_FC_whoop.pretty)(options "")(descr ""))
+  (lib (name ultimateFC)(type KiCad)(uri ${KIPRJMOD}/mod/ultimateFC.pretty)(options "")(descr ""))
+  (lib (name UFQPFN28)(type KiCad)(uri ${KIPRJMOD}/mod/UFQPFN28.pretty)(options "")(descr ""))
+)

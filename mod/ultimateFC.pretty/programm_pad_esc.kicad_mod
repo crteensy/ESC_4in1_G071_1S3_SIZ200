@@ -1,0 +1,29 @@
+(module programm_pad_esc (layer F.Cu) (tedit 5FD3F586)
+  (fp_text reference REF** (at -0.16 -0.83) (layer F.SilkS) hide
+    (effects (font (size 0.3 0.3) (thickness 0.05)))
+  )
+  (fp_text value programm_pad_esc (at 0.03 0.85) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole custom (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.47 0.29) (xy 0.47 0.29) (xy 0 -0.52)) (width 0))
+    ))
+  (pad 1 smd custom (at 0 0.01) (size 0.1 0.1) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.03) (zone_connect 2)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.32 0.2) (xy 0.32 0.2) (xy 0 -0.36)) (width 0))
+    ))
+  (pad 1 smd custom (at 0 0.01) (size 0.1 0.1) (layers B.Cu B.Mask)
+    (solder_mask_margin 0.03) (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.32 0.2) (xy 0.32 0.2) (xy 0 -0.36)) (width 0))
+    ))
+)
