@@ -5,6 +5,6 @@ KiCad project for a 20mm 4in1 ESC
 - SIZ200
 - STM32G071
 - NCP81161 gate drivers
-- 0m5 current sense shunt with INA185
+- 0m5 current sense shunt with INA186
 - 2A BEC (TPS630701)
 
