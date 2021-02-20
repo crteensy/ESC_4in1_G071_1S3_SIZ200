@@ -6165,7 +6165,7 @@
     (fp_text reference L1 (at 0 2.15) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1u (at 0 -2.65) (layer B.Fab)
+    (fp_text value "820 nH" (at 0 -2.65) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -0.35 -1.1) (end 0.35 -1.1) (layer B.SilkS) (width 0.12))
@@ -9604,7 +9604,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 150 89) (xy 122 89) (xy 122 61) (xy 150 61)
+        (xy 150 89.5) (xy 122 89.5) (xy 122 61) (xy 150 61)
       )
     )
     (filled_polygon
@@ -10936,7 +10936,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 150 89) (xy 122 89) (xy 122 80.5) (xy 144.5 80.5) (xy 145 80)
+        (xy 150 89.5) (xy 122 89.5) (xy 122 80.5) (xy 144.5 80.5) (xy 145 80)
         (xy 145 76.5) (xy 145.5 76) (xy 145.5 74) (xy 145 73.5) (xy 145 70)
         (xy 144.5 69.5) (xy 127 69.5) (xy 123 73.5) (xy 122 73.5) (xy 122 61)
         (xy 150 61)
@@ -11861,6 +11861,21 @@
         (xy 132.384787 73.113244) (xy 132.374065 73.0779) (xy 132.3625 73.056262) (xy 132.3625 73.043738) (xy 132.374065 73.0221)
         (xy 132.384787 72.986756) (xy 132.388407 72.95) (xy 132.388407 72.65) (xy 132.384787 72.613244) (xy 132.374065 72.5779)
         (xy 132.3625 72.556263) (xy 132.3625 72.3625) (xy 132.556263 72.3625)
+      )
+    )
+  )
+  (zone (net 82) (net_name /ESC3_B) (layer "In1.Cu_(power)") (tstamp 0) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.125))
+    (min_thickness 0.125)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 141.75 89.75) (xy 139.25 89.75) (xy 139.25 88.25) (xy 141.75 88.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 141.6875 88.7875) (xy 139.3125 88.7875) (xy 139.3125 88.3125) (xy 141.6875 88.3125)
       )
     )
   )
